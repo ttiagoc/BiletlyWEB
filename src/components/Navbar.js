@@ -1,41 +1,43 @@
-import React from 'react'
-import ElemNav from './ElemNav'
-import logo from '../Images/LogoPrincipal.png'
-
+import React from "react";
+import LogoPrincipal from "../Images/LogoPrincipal.png";
+import '../index.css';
 
 export default function Navbar() {
-
-    const listaElementosNav = ["Home", "About us", "Technologies", "Contact"]
-
-
+  const listaElementosNav = ["Home", "About us", "Technologies", "Contact"];
 
   return (
     <>
+      {/* <nav className="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+  <div className="container">
+    <a className="navbar-brand" href="#">
+      <p className="tituloNavbar"><img src={LogoPrincipal} alt="..." height="56" />Biletly</p>
+    </a>
+    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span className="navbar-toggler-icon"></span>
+    </button>
+    <div className="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul className="navbar-nav ms-auto">
+        <li className="nav-item">
+          <a className="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link active" href="#">About us</a>
+        </li>
+		<li className="nav-item">
+          <a className="nav-link active" aria-current="page" href="#">Technologies</a>
+        </li>
+		<li className="nav-item">
+          <a className="nav-link active" aria-current="page" href="#">Contact</a>
+        </li>
+      
+      </ul>
+    </div>
+  </div>
+</nav> */}
+			<nav style={{height:100, backgroundColor: '#383838'}}>
 
-        <navbar>
-
-        <header>
-	
-	        <nav class="navbar navbar-expand-lg">
-		    <div class="container-nav">
-			<a class="navbar-brand text-white" href="#"><i class="fa fa-graduation-cap fa-lg mr-2"></i><img src={logo} width="auto" height="70px"></img>Biletly</a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nvbCollapse" aria-controls="nvbCollapse">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-			<div class="collapse navbar-collapse" id="nvbCollapse">
-				<ul class="navbar-nav ml-auto">
-					<ElemNav listaElementos = {listaElementosNav} />
-					
-				</ul>
-			</div>
-		</div>
-	</nav>
-
-	</header>
-
-        </navbar>
-
+			</nav>
 
     </>
-  )
+  );
 }

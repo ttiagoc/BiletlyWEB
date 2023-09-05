@@ -23,18 +23,8 @@ a{
   color: white;
 }
 
-
-.navbar { background-color: #383838; }
-
-.container-nav{
-  padding-left: 300px;
-  padding-right: 500px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-
-.navbar-nav{
-  display: flex;
-  align-items: flex-end;
+.tituloNavbar{
+  
+  font-size: 39;
+  
 }
