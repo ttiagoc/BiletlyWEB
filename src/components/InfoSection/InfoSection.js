@@ -19,18 +19,9 @@ import { Link } from 'react-router-dom'
     alt,
     imgStart,
     start,
-    color
-}) => 
-
-{
-    const ButtonOn = () => { if (buttonLabel !== null || buttonLabel !== undefined) {
-        console.log(buttonLabel)
-        return <Link to='/sign-up'><Button big fontBig primary={primary} > 
-        {buttonLabel}
-        </Button>
-        </Link>
-    }
-    }
+    color,
+    showButton
+}) => {
     return (
         <>
             <InfoSec lightBg={lightBg} style={{backgroundColor:color}}>
@@ -41,10 +32,15 @@ import { Link } from 'react-router-dom'
                             <TopLine lightTopLine={lightTopLine}>{topLine}</TopLine>
                             <Heading lightText={lightText}>{headline}</Heading>
                             <Subtitle lightTextDesc={lightTextDesc}>{description} <br /> {description2}</Subtitle>
-                            
-                              
-                             {ButtonOn()}
-                            
+                            {showButton ? (
+                                <Link to='/sign-up'>                                
+                                    <Button big fontBig primary={primary}>
+                                        {buttonLabel}
+                                    </Button>
+                                </Link>
+                            ): (
+                                <div></div>
+                            )}                            
                             </TextWrapper>
                         </InfoColumn>
                         <InfoColumn>

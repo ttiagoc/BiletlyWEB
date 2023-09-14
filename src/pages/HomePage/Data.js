@@ -14,7 +14,8 @@ export const homeObjOne = {
     img: require('../../images/logo.png'),
     alt: 'Credit Card',
     start: '',
-    color:'black'
+    color:'black',
+    showButton: false
   };
   
   
@@ -35,7 +36,8 @@ export const homeObjOne = {
     img: require('../../images/ticket.png'),
     alt: 'Vault',
     start: 'true',
-    color:'#252525'
+    color:'#252525',
+    showButton: true
   };
 
   export const homeObjTwo = {
@@ -52,7 +54,8 @@ export const homeObjOne = {
     imgStart: '',
     img: require('../../images/svg-2.svg'),
     alt: 'Vault',
-    start: ''
+    start: '',
+    showButton: false
   };
   
   export const homeObjFour = {
@@ -69,5 +72,6 @@ export const homeObjOne = {
     imgStart: 'start',
     img: require('../../images/svg-3.svg'),
     alt: 'Vault',
-    start: 'true'
+    start: 'true',
+    showButton: false
   };
