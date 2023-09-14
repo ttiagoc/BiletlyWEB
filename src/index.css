@@ -11,20 +11,3 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
-
-
-a:focus, 
-a:hover{
-  color:#0EDB88
-}
-
-a{
-  color: white;
-}
-
-.tituloNavbar{
-  
-  font-size: 39;
-  
-}
