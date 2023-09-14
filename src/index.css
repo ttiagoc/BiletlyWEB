@@ -11,3 +11,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.boton{
+  background-color: transparent !important;
+  border: 2px solid #0EDB88 !important;
+}

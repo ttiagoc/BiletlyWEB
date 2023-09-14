@@ -2,6 +2,7 @@ import React from 'react'
 import {InfoSec, InfoRow, InfoColumn, TextWrapper, TopLine, Heading, Subtitle, ImgWrapper, Img} from './InfoSection.elements'
 import { Container, Button } from '../../globalStyles'
 import { Link } from 'react-router-dom'
+import '../../index.css'
 
  const InfoSection = ({ 
     
@@ -34,7 +35,7 @@ import { Link } from 'react-router-dom'
                             <Subtitle lightTextDesc={lightTextDesc}>{description} <br /> {description2}</Subtitle>
                             {showButton ? (
                                 <Link to='/sign-up'>                                
-                                    <Button big fontBig primary={primary}>
+                                    <Button big fontBig primary={primary} className='boton'>
                                         {buttonLabel}
                                     </Button>
                                 </Link>
