@@ -4,17 +4,40 @@ export const homeObjOne = {
     lightTopLine: true,
     lightText: true,
     lightTextDesc: true,
-    topLine: 'Marketing Agency',
-    headline: 'Lead Generation Specialist for Online Businesses',
+    
+    headline: 'Buy with confidence, trust the future',
     description:
-      'We help business owners increase their revenue. Our team of unique specialist can help you achieve your business goals.',
+      '“We seek to provide real confidence ',
+    description2: "to the users”",
     buttonLabel: 'Get Started',
     imgStart: '',
-    img: require('../../images/svg-1.svg'),
+    img: require('../../images/logo.png'),
     alt: 'Credit Card',
-    start: ''
+    start: '',
+    color:'black'
   };
   
+  
+  export const homeObjThree = {
+    primary: false,
+    lightBg: true,
+    lightTopLine: false,
+    lightText: true,
+    lightTextDesc: true,
+   
+    headline:
+      'Biletly protocol',
+    description:
+      "Ensure your Tickets and transactions",
+      description2: "using Web3 Technology",
+    buttonLabel: 'Contact us',
+    imgStart: 'start',
+    img: require('../../images/ticket.png'),
+    alt: 'Vault',
+    start: 'true',
+    color:'#252525'
+  };
+
   export const homeObjTwo = {
     primary: true,
     lightBg: false,
@@ -30,24 +53,6 @@ export const homeObjOne = {
     img: require('../../images/svg-2.svg'),
     alt: 'Vault',
     start: ''
-  };
-  
-  export const homeObjThree = {
-    primary: false,
-    lightBg: true,
-    lightTopLine: false,
-    lightText: false,
-    lightTextDesc: false,
-    topLine: 'Sarah Jeni',
-    headline:
-      'Ultra helped me increase my revenue by over 3X in less than 3 months!',
-    description:
-      "Their team is wonderful! I can't believe I didn't start working with them earlier.",
-    buttonLabel: 'View Case Study',
-    imgStart: 'start',
-    img: require('../../images/profile.jpg'),
-    alt: 'Vault',
-    start: 'true'
   };
   
   export const homeObjFour = {

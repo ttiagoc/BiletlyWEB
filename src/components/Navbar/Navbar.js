@@ -13,6 +13,7 @@ import { Nav,
 import { FaTimes, FaBars } from 'react-icons/fa';
 import { IconContext } from 'react-icons/lib'
 import { Button } from '../../globalStyles';
+import logo from '../../images/logo.png'
 
 
 function Navbar() {
@@ -62,11 +63,11 @@ function Navbar() {
     return (
         <>
         <IconContext.Provider value={{ color: '#fff' }}>
-            <Nav>
+            <Nav style={{backgroundColor:'#252525'}}>
                 <NavbarContainer>
                     <NavLogo to='/'> 
-                        <NavIcon />
-                            ULTRA
+                       <img src={logo} height={80} width={90}></img>
+                       <h3>Biletly</h3>
                     </NavLogo>
                     <HamburgerIcon onClick={handleClick}>
                         {click ? <FaTimes /> : <FaBars />}

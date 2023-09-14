@@ -13,22 +13,24 @@ import { Link } from 'react-router-dom'
     lightTextDesc,
     headline,
     description,
+    description2,
     buttonLabel,
     img,
     alt,
     imgStart,
-    start
+    start,
+    color
 }) => {
     return (
         <>
-            <InfoSec lightBg={lightBg}>
-                <Container>
+            <InfoSec lightBg={lightBg} style={{backgroundColor:color}}>
+                <Container >
                     <InfoRow imgStart={imgStart}>
                         <InfoColumn>
                             <TextWrapper>
                             <TopLine lightTopLine={lightTopLine}>{topLine}</TopLine>
                             <Heading lightText={lightText}>{headline}</Heading>
-                            <Subtitle lightTextDesc={lightTextDesc}>{description}</Subtitle>
+                            <Subtitle lightTextDesc={lightTextDesc}>{description} <br /> {description2}</Subtitle>
                             <Link to='/sign-up'>
                             <Button big fontBig primary={primary}>
                                 {buttonLabel}
