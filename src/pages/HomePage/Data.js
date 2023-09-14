@@ -9,7 +9,7 @@ export const homeObjOne = {
     description:
       '“We seek to provide real confidence ',
     description2: "to the users”",
-    buttonLabel: 'Get Started',
+    
     imgStart: '',
     img: require('../../images/logo.png'),
     alt: 'Credit Card',

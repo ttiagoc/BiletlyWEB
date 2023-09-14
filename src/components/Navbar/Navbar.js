@@ -65,7 +65,7 @@ function Navbar() {
         <IconContext.Provider value={{ color: '#fff' }}>
             <Nav style={{backgroundColor:'#252525'}}>
                 <NavbarContainer>
-                    <NavLogo to='/'> 
+                    <NavLogo to='/' > 
                        <img src={logo} height={80} width={90}></img>
                        <h3>Biletly</h3>
                     </NavLogo>
