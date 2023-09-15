@@ -18,3 +18,28 @@ code {
   border: 2px solid #0EDB88 !important;
 }
 
+.contenedor{
+
+  padding: 60px;
+  background-color: black;
+
+}
+
+.contenedor p, .contenedor h1, h2 {
+  color: white;
+}
+
+.tituloTechnologies {
+  font-size: 50px;
+}
+
+.icono{
+  height: 175px;
+  width: 175px;
+  margin: 15px;
+}
+
+.contenedor p {
+  font-size: 20px;
+}
+

@@ -4,9 +4,9 @@ export const homeObjOne = {
     lightTopLine: true,
     lightTextDesc: true,
     topLine: 'View Our Products',
-    headline: 'Shop through our catalog of products',
+    headline: 'Tickets to NFT',
     description:
-      'We provide worldwide shipping to all countries. If there are any issues, just issue a refund and we will process your request',
+      'Access to tickets in a modern and transparent way',
     buttonLabel: 'Shop Now',
     imgStart: '',
     img: require('../../images/svg-1.svg'),

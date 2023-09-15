@@ -56,7 +56,7 @@ import arrowDown from '../../images/arrowDown.png'
                 </Container>
                 {showArrow ? (
                     <div style={{justifyContent:'center', display:'flex', paddingTop:15, bottom:0}} >
-                    <img src={arrowDown} alt="arrowDown" style={{height:'75px' , width:"75px"}} />
+                    <img src={arrowDown} alt="arrowDown" style={{height:'75px' , width:"75px"}}/>
                 </div>
                 ): (
                     <></>

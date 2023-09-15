@@ -7,6 +7,7 @@ import Services from './pages/Services/Services';
 import Products from './pages/Products/Products';
 import SignUp from './pages/SignUp/SignUp';
 import ScrollToTop from './components/ScrollToTop';
+import Technologies from './pages/Technologies';
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
           <Switch>
             <Route path='/' exact component={Home} />
             <Route path='/services' component={Services} />
-            <Route path='/products' component={Products} />
+            <Route path='/products' component={Technologies} />
             <Route path='/sign-up' component={SignUp} />
           </Switch>
           <Footer />
