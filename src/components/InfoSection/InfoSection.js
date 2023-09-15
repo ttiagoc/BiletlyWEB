@@ -3,6 +3,8 @@ import {InfoSec, InfoRow, InfoColumn, TextWrapper, TopLine, Heading, Subtitle, I
 import { Container, Button } from '../../globalStyles'
 import { Link } from 'react-router-dom'
 import '../../index.css'
+import arrowDown from '../../images/arrowDown.png'
+
 
  const InfoSection = ({ 
     
@@ -21,11 +23,12 @@ import '../../index.css'
     imgStart,
     start,
     color,
-    showButton
+    showButton,
+    showArrow,
 }) => {
     return (
         <>
-            <InfoSec lightBg={lightBg} style={{backgroundColor:color}}>
+            <InfoSec lightBg={lightBg} style={{backgroundColor:color}} >
                 <Container >
                     <InfoRow imgStart={imgStart}>
                         <InfoColumn>
@@ -40,7 +43,7 @@ import '../../index.css'
                                     </Button>
                                 </Link>
                             ): (
-                                <div></div>
+                                <></>
                             )}                            
                             </TextWrapper>
                         </InfoColumn>
@@ -51,7 +54,17 @@ import '../../index.css'
                         </InfoColumn>
                     </InfoRow>
                 </Container>
+                {showArrow ? (
+                    <div style={{justifyContent:'center', display:'flex', paddingTop:15, bottom:0}} >
+                    <img src={arrowDown} alt="arrowDown" style={{height:'75px' , width:"75px"}} />
+                </div>
+                ): (
+                    <></>
+                )}
+                
+               
             </InfoSec>
+            
         </>
     )
 }

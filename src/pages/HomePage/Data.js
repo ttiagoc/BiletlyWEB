@@ -15,7 +15,8 @@ export const homeObjOne = {
     alt: 'Credit Card',
     start: '',
     color:'black',
-    showButton: false
+    showButton: false,
+    showArrow: true,
   };
   
   
@@ -37,7 +38,7 @@ export const homeObjOne = {
     alt: 'Vault',
     start: 'true',
     color:'#252525',
-    showButton: true
+    showArrow: false
   };
 
   export const homeObjTwo = {

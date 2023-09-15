@@ -66,8 +66,8 @@ function Navbar() {
             <Nav style={{backgroundColor:'#252525'}}>
                 <NavbarContainer>
                     <NavLogo to='/' > 
-                       <img src={logo} height={80} width={90}></img>
-                       <h3>Biletly</h3>
+                       <img src={logo} height={75} width={85} alt="LogoBiletly"></img>
+                       <h3 style={{fontSize:35}}>Biletly</h3>
                     </NavLogo>
                     <HamburgerIcon onClick={handleClick}>
                         {click ? <FaTimes /> : <FaBars />}
@@ -82,29 +82,25 @@ function Navbar() {
                     
                         <NavItem onClick={handleServicesClick} servicesClick={servicesClick}>
                             <NavLinks to='/services' onClick={closeMobileMenu}>
-                                Services
+                                About us
                             </NavLinks>
                         </NavItem>
                     
                     
                         <NavItem onClick={handleProductsClick} productsClick={productsClick}>
                             <NavLinks to='/Products' onClick={closeMobileMenu}>
-                                Products
+                            Technologies
                             </NavLinks>
                         </NavItem>
 
-                        <NavItemBtn >
-                            {button ? (
-                                <NavBtnLink to='/sign-up'>
-                                    <Button primary>SIGN UP</Button>
-                                </NavBtnLink>
-                            ) : (
-                                <NavBtnLink to='/sign-up'>
-                                    <Button onClick={closeMobileMenu} fontBig primary>SIGN UP</Button>
-                                </NavBtnLink>
-                            )}
-                            
-                        </NavItemBtn>
+
+                        
+                        <NavItem onClick={handleProductsClick} productsClick={productsClick}>
+                            <NavLinks to='/Products' onClick={closeMobileMenu}>
+                            Contact
+                            </NavLinks>
+                        </NavItem>
+
                     </NavMenu>
                 </NavbarContainer>
             </Nav>
