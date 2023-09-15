@@ -27,6 +27,7 @@ code {
 
 .contenedor p, .contenedor h1, h2 {
   color: white;
+  
 }
 
 .tituloTechnologies {
@@ -42,4 +43,5 @@ code {
 .contenedor p {
   font-size: 20px;
 }
+
 

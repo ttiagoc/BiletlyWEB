@@ -72,7 +72,7 @@ function Navbar() {
                     <HamburgerIcon onClick={handleClick}>
                         {click ? <FaTimes /> : <FaBars />}
                     </HamburgerIcon>
-                    <NavMenu onClick={handleClick} click={click} >
+                    <NavMenu onClick={handleClick} click={click}>
                         <NavItem onClick={handleHomeClick} homeClick={homeClick}>
                             <NavLinks to='/' onClick={closeMobileMenu}>
                                 Home

@@ -46,13 +46,13 @@ function Footer() {
             <SocialIconLink href='/' target='_blank' aria-label='Facebook'>
               <FaFacebook />
             </SocialIconLink>
-            <SocialIconLink href='/' target='_blank' aria-label='Instagram'>
+            <SocialIconLink href='https://www.instagram.com/biletlyco/' target='_blank' aria-label='Instagram'>
               <FaInstagram />
             </SocialIconLink>
             <SocialIconLink href='/' target='_blank' aria-label='YouTube' >
               <FaYoutube />
             </SocialIconLink>
-            <SocialIconLink href='/' target='_blank' aria-label='Twitter'>
+            <SocialIconLink href='https://twitter.com/biletlyco' target='_blank' aria-label='Twitter'>
               <FaTwitter />
             </SocialIconLink>
             <SocialIconLink href='/' target='_blank' aria-label='LinkedIn'>

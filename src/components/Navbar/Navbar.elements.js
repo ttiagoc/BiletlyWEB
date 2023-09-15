@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 
 export const Nav = styled.nav`
     background: #101522;
-    height: 80px;
+    height: 85px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,6 +31,7 @@ export const NavLogo = styled(Link)`
     font-size: 2rem;
     display: flex;
     align-items: center;
+    
 `
 
 export const NavIcon = styled(FaMagento)`

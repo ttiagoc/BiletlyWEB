@@ -8,10 +8,10 @@ import img4 from "../images/technologiesIcons/img4.png";
 export default function Technologies() {
   return (
     <>
-      <div style={{ backgroundColor: "black" }}>
+      <div style={{ backgroundColor: "black", paddingBottom:'66px' }}>
         <div className="container">
-          <div className="m-auto text-center contenedor">
-            <h1 className="tituloTechnologies">Technologies & objectives</h1>
+          <div className="m-auto contenedor">
+            <h1 className="tituloTechnologies text-center">Technologies & objectives</h1>
 
             <div className="row">
               <div
