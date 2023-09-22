@@ -2,17 +2,13 @@ import React, {useState, useEffect} from 'react'
 import { Nav, 
     NavbarContainer, 
     NavLogo, 
-    NavIcon, 
     HamburgerIcon,
     NavMenu,
     NavItem,
     NavLinks,
-    NavItemBtn,
-    NavBtnLink
  } from './Navbar.elements'
 import { FaTimes, FaBars } from 'react-icons/fa';
 import { IconContext } from 'react-icons/lib'
-import { Button } from '../../globalStyles';
 import logo from '../../images/logo.png'
 
 
@@ -62,7 +58,7 @@ function Navbar() {
 
     return (
         <>
-        <IconContext.Provider value={{ color: '#fff' }}>
+        <IconContext.Provider value={{ color: '#fff' }} >
             <Nav style={{backgroundColor:'#252525'}}>
                 <NavbarContainer>
                     <NavLogo to='/' > 

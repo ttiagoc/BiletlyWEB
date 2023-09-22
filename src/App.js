@@ -6,7 +6,7 @@ import Home from './pages/HomePage/Home';
 import Services from './pages/Services/Services';
 import SignUp from './pages/SignUp/SignUp';
 import ScrollToTop from './components/ScrollToTop';
-import Technologies from './pages/Technologies';
+import Technologies from './components/Technologies';
 
 function App() {
   return (

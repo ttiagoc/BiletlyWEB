@@ -55,7 +55,7 @@ export const HamburgerIcon = styled.div`
 
 export const NavMenu = styled.ul`
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     list-style: none;
     text-align: center;
     
